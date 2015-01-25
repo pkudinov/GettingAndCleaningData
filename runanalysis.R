@@ -7,9 +7,9 @@ activitynames <- read.csv("activity_labels.txt", sep="",
 # read and clean feature names
 features <- read.table("features.txt", stringsAsFactors = FALSE)[,2]
 # remove parentheses
-features <- sub("()", "", features)
-features <- sub(")$", "", features)
-features <- sub("(", "", features)
+features <- sub("()", "", features, fixed=TRUE)
+features <- sub(")$", "", features, fixed=TRUE)
+features <- sub("(", "", features, fixed=TRUE)
 # make unique and clean names with dots instead of - and _
 featurenames <- make.names(features, unique=TRUE)
 

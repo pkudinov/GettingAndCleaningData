@@ -20,7 +20,7 @@ the dataset contains 180 rows (6 activities times 30 subjects).
 The description of each observation is provided in a table bellow.
 
 |     |  Observation name  |  Description  |
-| - | -------- | ---------- |
+| --- | -------- | ---------- |
 | 1 | activity | Activity type |
 | 2 | subject | Subject identifier |
 | 3 | tBodyAcc.mean.X | Time domain body acceleration signal average x-axis |
